@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>The Quran Playlist</title>
+</head>
+<body>
+
+    <div class="playerCard">
+        <div class="nav">
+            <span class="no"></span>
+            <div class="playlistDiv">
+                <span title="Open"><i class="fa-solid fa-lg fa-bars"></i></span> 
+                <div class="playlist">
+                    <ol></ol>
+                </div>
+            </div>
+        </div>
+        <div class="top">
+            <h1>Surah <span class="surahName"></span></h1>
+            <p>(Surah No. <span class="order"></span>)</p>
+        </div>
+        <h3>Ayah No.<span class="ayahNo"></span> | <span class="origin"></span> Surah</h3>
+        <audio src=""></audio>
+        <div class="customPlayer">
+            <span><i class="fa-solid fa-spinner fa-2xl"></i></span>
+            <div class="controll">
+                <div class="controllers">
+                    <span class="left" title="Previous Surah"><i class="fa-solid fa-angles-left fa-lg"></i></span>
+                    <span class="audioState" title = "Play"><i class="fa-solid fa-play fa-xl"></i></span>
+                    <span class="right" title="Next Surah"><i class="fa-solid fa-angles-right fa-lg"></i></span>
+                </div>
+                <div class="inputs">
+                    <input type="range" value="0" max="100">
+                    <div>
+                        <span><i class="fa-solid fa-rotate-right" title="replay"></i></span>
+                        <p><span class="currTime" title="Current Time"></span> / <span class="duration" title="Surah Duration">10</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="" target="_blank" class="ytLink"><p>Reciter-  <span>Mishary Rashid Al Afasy</span></p></a>
+        <button title="Restart Page">Restart Page</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
